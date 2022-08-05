@@ -3,6 +3,7 @@ import cv2
 import face_recognition
 import os
 from datetime import datetime
+import numpy as np
 
 
 app=Flask(__name__)
