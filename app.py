@@ -1,5 +1,9 @@
 from flask import Flask, render_template, Response
-import cv2
+import ctypes
+import importlib
+
+
+cv2 = importlib.import_module('cv2')
 import face_recognition
 import os
 from datetime import datetime
